@@ -1,0 +1,109 @@
+body{
+    /*comment
+    background -color: rgb(115, 168, 189);*/
+    background-image: url(images/logo-mockup-front-3d-wall_145275-39-01.png);
+    background-size:cover;
+}
+h1{
+    color: gray;
+}
+p{
+    color: blanchedalmond ;
+}
+div{background-color: azure;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    padding-left: 50x;
+}
+
+#idpar{
+    color: black;
+    background-color: aqua;
+}
+.HEADINGS{
+    text-align: center; 
+    color: red;
+    background-color: bisque;
+    opacity: 25%;
+}
+.dotted{
+    border-style: dotted;
+        color: beige;
+
+}
+.soild{
+    border-style: solid;
+        color: beige;
+
+}
+.double{
+    border-style: double;
+    color: beige;
+}
+.inset{
+    border-style: inset;
+        color: beige;
+
+}
+.margins{
+    color: beige;
+    border: 2.5px solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 140px;
+}
+
+#boxmodel{
+background-color: lightblue;
+border: 15px solid green;
+width: 300px;
+margin: 20px;
+padding: 50px;
+}
+
+
+a{
+   color: darkslategray; 
+
+}
+a:visited{
+    color: purple;
+}
+/* When mouse on link */
+a:hover{
+    color: sandybrown;
+}
+img{
+    float:initial;
+}
+
+
+.textsize{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li{
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a :hover:not(.active){
+    background-color: #111; 
+}
+
+.active{
+    background-color: aqua;
+    margin: 5px;
+}
